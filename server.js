@@ -1,11 +1,12 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const employeesRoute = require('./routes/employeesRoute');
 
 const app = express();
-app.use(bodyParser.urlencoded({ extended: true }))
-app.use(bodyParser.json())
-// app.use(noteRoute);
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+app.use(employeesRoute);
 
 // DB
 const DB_URL = "mongodb+srv://thiago:mypassword@cluster0.siwfc.mongodb.net/labtest2?retryWrites=true&w=majority";
