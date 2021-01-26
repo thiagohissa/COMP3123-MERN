@@ -1,10 +1,6 @@
-# React Express Starter Pack
+# CRUD & MERN
 
-> Create full stack apps with React and Express. Run your client and server with a single command. 
-
-### Redux Version
-This version does not include Redux
-[Click Here For Redux Version](https://github.com/bradtraversy/react_redux_express_starter) 
+> Simple Demo of CRUD operations using MERN and some Bootstrap
 
 ## Quick Start
 
@@ -31,8 +27,7 @@ npm run client
 
 ### Author
 
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
+Thiago Hissa
 
 ### Version
 
