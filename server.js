@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(employeesRoute);
 
 // DB
-const DB_URL = "mongodb+srv://thiago:mypassword@cluster0.siwfc.mongodb.net/labtest2?retryWrites=true&w=majority";
+const DB_URL = "";
 mongoose.Promise = global.Promise;
 mongoose.connect(DB_URL, {
     useNewUrlParser: true,
